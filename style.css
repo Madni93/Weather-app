@@ -34,7 +34,9 @@ h1 {
   padding: 50px;
 }
 body {
-  background-image: url("./wall.jpg");
+  background-image: url("./images/bg7.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .searchbox {
   display: flex;
