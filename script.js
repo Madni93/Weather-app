@@ -43,7 +43,7 @@ function weather() {
         document.getElementById("city").innerHTML = city;
         document.getElementById("cloud").innerHTML = cloud;
         document.getElementById("speed").innerHTML =
-          "Wind Speed : " + `${speed} m/s`;
+          "Wind: " + `${speed} m/s`;
         if (sky == "Clouds") {
           weatherIcon.src = "images/clouds.png";
         } else if (sky == "Clear") {
