@@ -37,6 +37,7 @@ body {
   background-image: url("./images/bg7.jpg");
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 .searchbox {
   display: flex;
